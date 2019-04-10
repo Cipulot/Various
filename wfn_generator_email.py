@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# Luca Sevà
+# Extract AIMPAC data from output file of GAMESS
+# Last updated : 4-10-2019
 import sys
 import os
 import os.path
