@@ -80,10 +80,10 @@ else:
       print(line)
 in_file.close()              
 out_file.close()
+#Get output file size in MB
 statinfo = os.path.getsize(output_name)/1048576
-print("Output file size (MB): ",statinfo)
-#PRINT IF FILE IS LARGER THAN 25MB 
-#Send email
+print("Output file size (MB): ",statinfo) 
+#Check for attachment dimension
 if statinfo < 25:
   #Now we have the name of the file will be outputing
   body = "WFN file for " + name + " has been generated!\nFile has been created @: " + datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y") +"\nCheck it out!"
