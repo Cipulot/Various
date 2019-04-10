@@ -1,3 +1,5 @@
+//Luca Sevà
+//Assortment of recursive functions for the list structure
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
