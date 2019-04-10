@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # Luca Sevà
 # Extract AIMPAC data from output file of GAMESS
+#This script is designed to extract AIMPAC data from an output file (.dat) of the GAMESS program.
+#If valid data is found these are written to a .wfn file (wavefunction file). After the newly generated file have been saved the script will automatically send it to a designated email address specified into the script.
+#NOTE: the script will check for the dimension of the file to ensure that can be attached to the email. The size limit is of 25MB for Gmail.
 # Last updated : 4-10-2019
 import sys
 import os
